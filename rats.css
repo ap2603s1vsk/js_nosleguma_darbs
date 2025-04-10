@@ -1,0 +1,104 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #E4B46F;
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+
+
+}
+
+
+
+label {
+    margin-left: 20px;
+    font-size: 20px
+}
+
+.laikakaste {
+    position: fixed;
+    margin-left: 0px;
+    margin-top: 20px;
+    z-index: 1000;
+    bottom: 0; left: 0;
+}
+
+#garais {
+    font-size: 16px;
+    margin-left: 20px;
+    margin-top: 500px;
+
+}
+
+#izvade {
+    margin-left: 20px;
+    font-size: 25px
+}
+
+#izvele {
+    font-size: 25px
+}
+
+
+
+.wheel-container {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    display:flex;
+
+    position: relative;
+    width: 500px;
+    height: 500px;
+}
+
+.pointer {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 40px;
+    height: 60px;
+    background-color: black;
+    clip-path: polygon(100% 0, 0 50%, 100% 100%);
+    transform: translate(-50%, -50%) rotate(-90deg);
+}
+
+#podzina {
+    margin-right: auto;
+    margin-left: auto;
+
+    display:flex;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #F3D3A5;
+    margin-top: 20px;
+
+
+}
+
+#podzina:hover {
+    background-color: #e0c4a0;
+}
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    background: rgba(230, 230, 230, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    display: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+
+#krasina:hover {
+    background-color: #e0c4a0;
+}

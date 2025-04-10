@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E4B46F;
+    display: flex;
+    flex-direction: column;
+}
+
+#biletes {
+    position: absolute;
+    right: 20px;
+    display:flex;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #F3D3A5;
+
+
+
+}
+
+#pratavetrabilde {
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 50px;
+    height: 530px;
+}
+
+.nosaukums {
+    position: absolute;
+    margin-top: 600px;
+    margin-left: 60px;
+    font-size: 20px;
+    font-weight:bold;
+}
+
+
+.apraksts {
+    position: absolute;
+    margin-left: 500px;
+    margin-right: 50px;
+    margin-top: 60px;
+    font-size:17px;
+    font-weight: bold;
+}
+
+#biletes:hover {
+    background-color: #e0c4a0;
+}
+
